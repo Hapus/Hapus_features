@@ -35,7 +35,7 @@ function smtp_settings_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'smtp_fromname';
-  $strongarm->value = 'SprintPDF';
+  $strongarm->value = 'Sprint PDF';
   $export['smtp_fromname'] = $strongarm;
 
   $strongarm = new stdClass();
