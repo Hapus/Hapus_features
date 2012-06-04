@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Front page settings feature.
+ */
+
+include_once('front_page_settings.features.inc');
