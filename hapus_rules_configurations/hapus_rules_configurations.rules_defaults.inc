@@ -64,5 +64,13 @@ function hapus_rules_configurations_default_rules_configuration() {
       ]
     }
   }');
+  $items['rules_redirect_post_login'] = entity_import('rules_config', '{ "rules_redirect_post_login" : {
+      "LABEL" : "Redirect the user after login to user\\/dashboard",
+      "PLUGIN" : "reaction rule",
+      "REQUIRES" : [ "rules" ],
+      "ON" : [ "user_login" ],
+      "DO" : [ { "redirect" : { "url" : "user\\/dashboard" } } ]
+    }
+  }');
   return $items;
 }
