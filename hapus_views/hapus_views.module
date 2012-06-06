@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Hapus views feature.
+ */
+
+include_once('hapus_views.features.inc');

@@ -1,0 +1,7 @@
+core = "7.x"
+dependencies[] = "views"
+description = "Hapus views"
+features[ctools][] = "views:views_default:3.0"
+features[views_view][] = "user_file_usage"
+name = "Hapus views"
+package = "Features"
