@@ -92,7 +92,7 @@ This link can only be used once to log in and will lead you to a page where you 
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'user_mail_register_admin_created_body';
-  $strongarm->value = '[user:name],
+  $strongarm->value = 'Hey [user:name],
 
 A site administrator at [site:name] has created an account for you. You may now log in by clicking this link or copying and pasting it to your browser:
 
@@ -119,27 +119,27 @@ password: Your password
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'user_mail_register_no_approval_required_body';
-  $strongarm->value = '[user:name],
+  $strongarm->value = 'Hey [user:name],
 
-Thank you for registering at [site:name]. You may now log in by clicking this link or copying and pasting it to your browser:
+Welcome to Sprint PDF&mdash;the fastest, most easiest, blah blah...
 
-[user:one-time-login-url]
+Long story short, here\'s how you get started quickly:
 
-This link can only be used once to log in and will lead you to a page where you can set your password.
+1. Download the most recent version of the <a href="https://github.com/Hapus/SprintPDF_PHP_Library">Sprint PDF library</a> from Github.
+2. Include it in your code <a href="http://www.sprintpdf.com/api-example/generate-pdf/php">like this</a>.
+3. Start PDFing!
 
-After setting your password, you will be able to log in at [site:login-url] in the future using:
+And dont\'t ever hesitate to mail us in case of questions, problems, or feedback :-)
 
-username: [user:name]
-password: Your password
-
---  [site:name] team';
+Thanks,
+The Sprint PDF team';
   $export['user_mail_register_no_approval_required_body'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'user_mail_register_no_approval_required_subject';
-  $strongarm->value = 'Account details for [user:name] at [site:name] this is the one';
+  $strongarm->value = '[Sprint PDF] Welcome to Sprint PDF!';
   $export['user_mail_register_no_approval_required_subject'] = $strongarm;
 
   $strongarm = new stdClass();
