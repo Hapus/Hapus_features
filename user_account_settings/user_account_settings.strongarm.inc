@@ -129,7 +129,7 @@ Long story short, here\'s how you get started quickly:
 2. Include it in your code <a href="http://www.sprintpdf.com/api-example/generate-pdf/php">like this</a>.
 3. Start PDFing!
 
-And dont\'t ever hesitate to mail us in case of questions, problems, or feedback :-)
+And don\'t ever hesitate to mail us (at support@sprintpdf.com) in case of questions, problems, or feedback :-)
 
 Thanks,
 The Sprint PDF team';
